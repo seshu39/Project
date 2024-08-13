@@ -1,0 +1,118 @@
+.why-choose-usss {
+    padding: 60px 20px;
+    background-color: #1c1c1c;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .content-wrapperss {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .choose-containerss {
+    background-color: #000;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    flex: 1;
+  }
+  
+  .featuressss {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .featuress-itemss {
+    display: flex;
+    align-items: center;
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .featuress-itemss:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon-containerss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #1c1c1c;
+    margin-right: 15px;
+
+    transition: background-color 0.3s;
+  }
+  
+  .featuress-itemss:hover .icon-containerss {
+    background-color: #88D66C;
+  }
+  
+  .iconss {
+    font-size: 1.8em;
+    color: #f8f9fa;
+  }
+  
+  .featuress-textss h3 {
+    margin: 0;
+    font-size: 1.4em;
+    color: #2ab660ee;
+  }
+  
+  .featuress-textss p {
+    margin: 5px 0 0;
+    color: #ddd;
+  }
+  
+  .descriptionss {
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+    color: #f8f9fa;
+  }
+  
+  .descriptionss h2 {
+    color: #2ab660ee;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .descriptionss p {
+    margin: 15px 0;
+    color: #ddd;
+    line-height: 1.6;
+  }
+  
+  .cta-buttonss {
+    display: inline-block;
+    background-color: #2ab660ee;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .cta-buttonss:hover {
+    background-color: #77c25b;
+    transform: translateY(-3px);
+  }
+  .p1ss{
+    font-weight: 550;
+  }
+  .p2ss{
+    font-weight: 550;
+  }

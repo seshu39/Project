@@ -1,0 +1,112 @@
+ .editor-container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    background-color: black;
+    font-family: 'Poppins',sans-serif;
+  }
+  .form-section {
+    width: 45%;
+  }
+  .form-section h2{
+   color: #2ab660ee;
+  }
+  
+  .form-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group textarea {
+    height: 150px;
+  }
+  
+  .preview-section {
+    width: 50%;
+  }
+  
+  .cover-letter {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  .cover-letter-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #2ab660ee;
+    color: black;
+    justify-content: flex-start;
+    width: 640px;
+    height: 25vh;
+
+    
+  }
+  .cover-letter-header p{
+   
+    
+    color: black;
+    
+  }
+  .header-left h1{
+          margin-top: 80px;
+          font-size: 25px;
+          margin-left: 20px;
+          
+  }
+  .header-left, .header-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .header-right {
+    align-items: flex-start; 
+    margin-left: 20px; 
+  
+  }
+  
+  .cover-letter-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+  }
+  .generate-pdf-button{
+    margin-top: 20px;
+       width: 200px;
+       height: 10vh;
+       border-radius: 20px;
+       background-color: #2ab660ee;
+       border: 0;
+       color: white;
+       font-size: 20px;
+  }
+  .generate-pdf-button:hover{
+    background-color: black;
+  }

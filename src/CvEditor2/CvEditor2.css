@@ -1,0 +1,144 @@
+
+  
+  .blackcv
+  {
+    color:#000;
+  }
+  .editor-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+    /* margin-top: 0px; */
+    /* margin: 0; */
+  }
+  
+  .form-section {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .form-group-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .form-group {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    border-top: 10px;
+  }
+  
+  .form-group textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .preview-sectionn {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .cover-letterr {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cover-letter-headerr {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 0px; 
+  }
+  
+  .header-leftt,
+  .header-rightt {
+    flex: 1;
+  }
+  
+  .header-leftt {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .header-rightt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .cover-letter-headerr h1 {
+    margin: 0;
+    font-size: 24px;
+  
+  }
+  
+  .cover-letter-bodyy {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .cover-letter-bodyy p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .cover-letter-body p.dear {
+    position: relative;
+    padding-top: 10px; 
+    margin-top: 20px; 
+  }
+ 
+  .cover-letter-bodyy p.dear::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 20px); 
+    height: 2px; 
+    background-color: #000; 
+  }
+  .generate-pdf-button{
+    margin-top: 20px;
+       width: 200px;
+       height: 10vh;
+       border-radius: 10px;
+       background-color: #2ab660ee;
+       border: 0;
+       color: white;
+       font-size: 20px;
+  }
+  .generate-pdf-button:hover{
+    background-color: black;
+  }

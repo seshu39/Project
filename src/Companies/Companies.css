@@ -1,0 +1,62 @@
+.resume-container {
+    background:rgb(31, 29, 29);
+    color:#2ab660ee;
+    font-family:"Poppins", sans-serif ;
+    text-align: center;
+    padding: 10px 30px 15px ;
+    height:250px;
+  }
+  
+  .resume-score {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .resume-score h1 {
+    font-size: 2.8em;
+    margin-bottom: 20px;
+  }
+  
+  .resume-score p {
+    font-size: 1.2em;
+    margin-bottom: 100px;
+  }
+  
+  .companies {
+    font-size: 1em;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  /* .logos img {
+    height: 40px;
+    width: 125px;
+  } */
+  .logo1 {
+    height: 40px; /* Adjust size for the first logo */
+    width: 120px;  /* Adjust size for the first logo */
+    margin-top:9px;
+  }
+  .logo2 {
+    height: 45px; /* Adjust size for the second logo */
+    width: 130px;  /* Adjust size for the second logo */
+  }
+  
+  .logo3 {
+    height: 45px; /* Adjust size for the third logo */
+    width: 125px;  /* Adjust size for the third logo */
+  }
+  .logo4 {
+    height: 40px; /* Adjust size for the third logo */
+    width: 105px;  /* Adjust size for the third logo */
+    margin-top:9px;
+  }
+  .center{
+    color:white;
+    font-size:25px;
+  }

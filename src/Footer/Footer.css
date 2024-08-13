@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.footers {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.txt {
+  font-size: 27px;
+  color: #88d66c;
+}
+
+.c {
+  font-size: 35px;
+}
+
+.cv {
+  color: #88d66c;
+  font-size: 50px;
+}
+
+.social-icons-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+  margin-bottom: 20px;
+  padding-top: 40px
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+  background-color: #88d66c;
+  color: #ffffff;
+}
+
+.footer-sectionst {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-sections {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-sections h4 {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.footer-sections ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.footer-sections ul li {
+  margin-bottom: 8px;
+}
+
+.footer-sections ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-sections ul li a:hover {
+  color: #2ab660;
+}
+
+.cop {
+  text-align: center;
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.about-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; 
+  align-items: flex-start;
+  padding: 50px;
+  background: #ffffff; 
+  font-family: "Poppins", sans-serif;
+  color: #2c3e50;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  gap: 20px; 
+
+}
+
+.contentss {
+  max-width: 60%; 
+  text-align: left; 
+  font-weight:600px;
+}
+
+.contentss h2 {
+  font-size: 2.5em;
+  color: #2ab660ee; 
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.contentss ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contentss li {
+  margin: 15px 0;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contentss li:hover {
+  transform: translateX(10px);
+  color: #2ab660ee;
+}
+
+.image {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+.pdf-icon {
+  width: 60px;
+  height: auto;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.pdf-icon:hover {
+  transform: scale(1.1);
+}
+
+.cv-imagess {
+  margin-top: -150px; 
+  transition: transform 0.3s ease;
+
+}
+
+.cv-imagess:hover {
+  transform: scale(1.05);
+}
+.change{
+    color:black;
+    position: relative;
+    display: inline-block;
+}.change::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px; 
+    background: #2ab660ee; 
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .change:hover::after {
+    transform: scaleX(1);
+  }
+  .checkmark {
+    display: inline-block;
+    width: 24px; 
+    height: 24px; 
+    background-color: #2ab660ee; 
+    border-radius: 50%; 
+    position: relative; 
+    margin-right: 15px;
+    text-align: center;
+    line-height: 24px; 
+  }
+  
+  .checkmark::before {
+    content: '✔'; 
+    color: black; 
+    font-size: 16px; 
+    display: block; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+  }
+  .templatess {
+    width: 450px; 
+    height: 450px; 
+    margin-top:120px;
+    margin-left:150px;
+  }

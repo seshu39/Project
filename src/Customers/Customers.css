@@ -1,0 +1,86 @@
+.customers-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 40px;
+  }
+  
+  .customer-stats {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
+  
+  .stat {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+  
+  .stat h2 {
+    font-size: 2rem;
+    color: white;
+    /* margin: 0; */
+  }
+  
+  .stat p {
+    font-size: 1rem;
+    color: rgb(206, 202, 202);
+  }
+  .state {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+  
+  .state h2 {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+  }
+  
+  .state p {
+    font-size: 1rem;
+    color: rgb(206, 202, 202);
+  }
+  
+  .stati {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  
+  .stati h2 {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+  }
+  
+  .stati p {
+    font-size: 1rem;
+    color: rgb(206, 202, 202);
+  }
+  
+  .get-started-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .get-started-button button {
+    background-color: #2ab660ee;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .get-started-button button:hover {
+    background-color: #249f54;
+  }

@@ -1,0 +1,78 @@
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 200px;
+  }
+  .cccc{
+    font-size: 40px;
+   color:#2ab660ee;
+  }
+  .contact-header .logo {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .contact-header h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .contact-form .form-group input {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .contact-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .contact-form .submit-btns {
+    padding: 10px 20px;
+    border: none;
+    background-color:#000000ee;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form .submit-btns:hover {
+    background-color:#1b984bee;
+  }

@@ -1,0 +1,95 @@
+.full_page {
+    font-family: "Poppins", sans-serif;
+    margin-top: 50px;
+  }
+  
+  .First_Box {
+    display: flex;
+    align-items: center;
+    background-color: #e1e7dd;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    color: #2d814d;
+    /* color: black; */
+    width:550px;
+    height: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 90px;
+    margin-left: 21px;
+  }
+  
+  .text {
+    top: 100px;
+    font-size: 20px;
+    font-weight: 560;
+    color: #045e28;
+    margin-top: 24px;
+  }
+  
+  .Head {
+    /* color: black; */
+    
+    font-size: 60px;
+    text-align: left;
+    margin-left: 45px;
+  }
+  
+  .SubHead {
+    color: #798176;
+    text-align: left;
+    margin-left: 45px;
+    font-size: 23px;
+    font-weight: 400;
+  }
+  .Highlight{
+        color: #2ab660;
+  }
+  .head_button{
+    width: 250px;
+    height: 8vh;
+    background-color: #2ab660ee;
+    /* background-color: black; */
+    border-radius: 8px;
+    margin-left: 45px;
+    border: 0;
+    margin-top: 30px;
+    font-size: 20px;
+    color:white;
+    padding: 5px  ;
+  }
+  .head_button:hover{
+    /* background-color: #055825ee; */
+    /* background-color: #2ab660ee; */
+    background-color: black;
+  }
+  .CoverLet{
+    color: #2ab660;
+    font-size: 60px;
+  }
+ 
+  .cover_image{
+    margin-top: 90px;
+    margin-left: 190px;
+    width: 400px;
+    height: 400px;
+  }
+  .wholies{
+       display: flex;
+       flex-direction: row;
+       background-color:rgb(215, 222, 215) ;
+       padding-top: 110px;
+       height: 85vh;
+       /* background-image: url("https://www.resume.com/static/c69cbd754bc1be2bb67714a5e13703de/261bb/do-employers-read-cl.webp"); */
+       /* background-repeat: no-repeat;
+       background-position: cover;
+       background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPnXLLKrvC5dpOIOKX3itiGz3PqoYx1jrlvZCClAChieVn-ePS3KAKNliqWEQK_HbC3OQ&usqp=CAU'); */
+  }
+  .company{
+       font-weight: 300;
+       margin-top: 40px;
+       margin-left: 20px;
+       font-size: 18px;
+  }
+  

@@ -1,0 +1,151 @@
+.home-sec {
+  padding: 90px 0;
+  background-image: linear-gradient(90deg, rgba(250, 250, 250, 0.774), rgba(178, 196, 214, 0.4)), url(https://media.graphassets.com/UifLOfa0RxuVuxpH2scT);
+  background-position: 50%;
+ 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background-size: cover;
+  position: relative;
+  /* margin-top: 130px; */
+  /* https://media.graphassets.com/UifLOfa0RxuVuxpH2scT */
+}
+
+.home-sec::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(42, 182, 96, 0.199); */
+  /* background-color: #eedfdf1a; */
+  z-index: 1;
+}
+
+.home-container {
+  width: 100px;
+  max-width: 1500px;
+  margin-top: 40px;
+  margin-left: 195px;
+  /* padding: 0 15px; */
+  position: relative;
+  z-index: 2; 
+}
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  margin-top: -3rem;
+  width: 1000px;
+  position: relative;
+  z-index: 2; 
+}
+
+.home-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-col-50 {
+  width: 100%;
+ 
+}
+
+.align-item-center {
+  display: flex;
+  align-items: center;
+}
+/*  max-width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+
+    margin-right: 40px;*/
+.home-info {
+  background-color: rgba(235, 235, 235, 0.9);
+  padding: 50px;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.home-info h1,
+.home-info h2 {
+  color: black;
+}
+
+.home-info p {
+  color: black;
+}
+
+.home-info h1 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;  
+}
+
+.home-info h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.home-info h2 span {
+  color: #000000;
+}
+
+.home-info p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+.home-btnn {
+  
+  background-color: #2ab660ee;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 320px;
+  padding: 10px 20px;
+  width: 90px;
+  transition: all 0.5s;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .home-row {
+    flex-direction: column;
+  }
+
+  .home-col-50 {
+    width: 100%;
+  }
+
+  .order-first {
+    order: -1;
+  }
+
+  .order-lg-last {
+    order: 0;
+  }
+}
+
+.Highlight {
+  color: #2ab660;
+ 
+}

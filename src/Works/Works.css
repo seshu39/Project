@@ -1,0 +1,103 @@
+.steps-containerr {
+    color: #ffffff;
+    background: black;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .steps-containerr h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .stepsr {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .stepr {
+    max-width: 300px;
+    text-align: center;
+  }
+  .sh1 {
+    color: white;
+  }
+  .stepr img {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .stepsr-h3 {
+    font-size: 90px;
+    margin-bottom: 10px;
+  }
+  
+  .stepr p {
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  .make-resume-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #88d66c;
+  
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .make-resume-button:hover {
+    background-color: #2ab660ee;
+  }
+  .stepsr-h1 {
+    font-weight: 650;
+  }
+  .stepsr-h3 {
+    font-weight: 600;
+  }
+  .steps-containerr h2 {
+    font-size: 45px;
+  }
+  .steps-containerr h3 {
+    font-size: 22px;
+  }
+  .arrowr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 200px;
+  }
+  
+  .arrowr::before, .arrowr::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-right: 5px solid white;
+    border-top: 5px solid white;
+    transform: rotate(45deg);
+    animation: moveArrow 1.5s infinite;
+  }
+  
+  .arrowr::after {
+    animation-delay: 0.75s;
+  }
+  
+  @keyframes moveArrow {
+    0%, 100% {
+      transform: translateX(0) rotate(45deg);
+    }
+    50% {
+      transform: translateX(10px) rotate(45deg);
+    }
+  }
+  
+  

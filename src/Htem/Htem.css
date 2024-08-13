@@ -1,0 +1,140 @@
+.Hbody {
+    display: flex;
+    justify-content: center;
+    /* padding: 10px; */
+    
+    /* margin-top: 10px; */
+  }
+  .t {
+    text-align: center;
+    /* margin: 0 auto; */
+    /* padding: 20px; */
+  }
+  
+  .t h2 {
+    margin: 0;
+    font-size: 34px;
+    color: black;
+    font-weight: 600;
+    /* color: #2ab660; */
+  }
+  
+  .under {
+    font-size: 40px;
+    
+  }
+  .cep {
+    text-align: center;
+    justify-content: center;
+    font-weight: 550;
+    font-size: 25px;
+    margin-top: 30px;
+  }
+  .topy{
+    padding-top: 40px;
+    
+  }
+  .cv1 {
+    color:#2ab660ee;
+    font-size: 57px;
+   
+  }
+  .underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 45px;
+    bottom: 0;
+    width: 100%;
+    /* border-radius: 30%; */
+    height: 6.2px;
+    background-color: #2ab660;
+  }
+  .card-container {
+    display: flex;
+    gap: 90px;
+    
+  }
+  
+  .card {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px; /* Set card width */
+    height: 400px; /* Set card height */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 400px; /* Adjust image height */
+  
+    transition: opacity 0.3s ease;
+  }
+  
+  .card-content {
+    padding: 16px;
+    flex: 1; /* Allow content area to expand */
+  }
+  
+  .view-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(42, 182, 96, 0.8);
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    text-align: center;
+    line-height: 400px;
+    opacity: 0;
+    transform: translateY(40%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .card:hover .view-button {
+    opacity: 1;
+    transform: translateY(0);
+    color: white;
+  }
+  
+  .card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bH {
+    text-align: center;
+    margin: 20px 0; 
+  }
+  
+  .bH button {
+    background-color: #2ab660; 
+    color: #fff; 
+    border: none;
+    border-radius: 4px; 
+    
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.3s; 
+    width: 300px;
+    height: 10vh;
+  }
+  
+  .bH button:hover {
+    background-color: #239f52;
+    transform: scale(1.05);
+  }
+  
+  .bH button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(42, 182, 96, 0.5); 
+  }

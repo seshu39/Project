@@ -1,0 +1,107 @@
+.cls-cover-letter-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.cls-cover-letter-content {
+  flex: 1;
+  padding-right: 20px; /* Space between text and slider */
+  max-width: 50%; /* Limit the width of the text area */
+  /* padding-top: px; */
+  margin-top: 70px;
+}
+
+.cls-cover-letter-title {
+  font-size: 3.2em; /* Title size */
+  margin-bottom: 15px;
+  /* margin-left: 1px; */
+  align-items: left;
+}
+
+.cls-cover-letter-highlight {
+  color: #4caf50; /* Highlight color for "P" */
+  font-size: 3.9rem;
+}
+
+.cls-cover-letter-description {
+  font-size: 1.6rem; /* Description size */
+  margin-top: 60px;
+}
+
+.cls-cover-letter-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px; /* Adjust padding for the button */
+  font-size: 1.2em; /* Button text size */
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+.cls-cover-letter-btn:hover {
+  background-color: #45a049;
+}
+
+.cls-cover-letter-slider {
+  flex: 1;
+  max-width: 50%; /* Ensure the slider takes up 50% of the width */
+  max-height: 200px;
+  /* border-color: black; */
+}
+
+.slick-slide {
+  display: flex; /* Ensure templates are centered within slides */
+  justify-content: center; /* Center templates horizontally */
+}
+
+.cls-cover-letter-template {
+  width: 500px; /* Fixed width */
+  height: 800px; /* Fixed height */
+  margin: 0 auto; /* Center the template within the slide */
+  /* Ensure padding and border are included in the width and height */
+  overflow: hidden; /* Hide overflow content */
+}
+
+.cls-cover-letter-template img {
+  width: 100%; /* Ensure image fits the width of the template */
+height: 100%; /* Ensure image fits the height of the template */
+  object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+}
+
+/* Custom Arrow Styles */
+.slick-arrow {
+  background-color: #4caf50;
+  border: none;
+  /* text-decoration: none; */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1; /* Ensure arrows are above the slider content */
+  font-size: 24px; /* Font size for the arrows */
+  color: #000000; /* Color of the arrows */
+}
+
+.slick-arrow:hover {
+  background-color: #218838;
+ 
+ /* Color of the arrows */
+}
+
+.slick-prev {
+  margin-top: 250px;
+  left: 10px; /* Position for previous arrow */
+}
+
+.slick-next {
+  right: 10px;
+  margin-top: 250px; /* Position for next arrow */
+}

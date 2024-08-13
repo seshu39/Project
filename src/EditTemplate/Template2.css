@@ -1,0 +1,139 @@
+.template-container2 {
+    display: flex;
+  }
+  
+  .sidebar2 {
+    width: 60px;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+  }
+  h1
+  {
+      color: #000000;
+  }
+  .th22
+  {
+      font-size: 22px;
+      color:#ffffff;
+      /* width: 200px; */
+      padding-top: 5px;
+      padding-left: 4px;
+      padding-bottom: 5px;
+      background-color: #000000;
+  }
+  .resume-header2 h1{
+      color: #2ab660;
+  }
+  
+  .sidebar-icon2 {
+   color: white;
+    font-size: 20px;
+    /* margin: 20px 0; */
+    padding: 20px;
+    cursor: pointer;
+  }
+  .profile-picture2 {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+     
+  
+    }
+    
+  
+  .sidebar-icon2:hover {
+      color: #2ab660;
+  }
+  
+  .form-container2 {
+    flex: 1;
+    padding: 20px;
+    background-color: #000000;
+    padding-right: 40px;
+  }
+  .cvs
+  {
+      font-size: 40px;
+  }
+  
+  .preview-container2 {
+    flex: 2;
+    padding: 20px;
+    background: #ecf0f1;
+  }
+  
+  .resume-preview2 {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume-header2 {
+    text-align: center;
+  }
+  
+  .resume-contact2 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .resume-contact2 div {
+    margin-bottom: 10px;
+  }
+  
+  .resume-section2 {
+    margin-top: 20px;
+  }
+  
+  .download-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .download-btn:hover {
+    background: #2ecc71;
+  }
+  
+  .th2 {
+    font-size: 24px;
+  }
+  
+  .cth2 {
+    color: #27ae60;
+  }
+  
+  .form-group2 {
+    margin-bottom: 15px;
+  }
+  
+  .form-group2 label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ecf0f1;
+  }
+  
+  .form-group2 input,
+  .form-group2 textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .resume-preview2
+  {
+      background-color:white;
+     /* order: #000000; */
+      border-right: 2px solid #000000;
+      border-left:2px solid #000000;
+      border-top: 2px solid #000000;
+     border-bottom: 2px solid #000000;
+  }

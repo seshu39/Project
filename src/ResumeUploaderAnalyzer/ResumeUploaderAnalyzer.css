@@ -1,0 +1,425 @@
+/* 
+.uploader-analyzer-body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+  }
+  
+  .uploader-analyzer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .uploader-analyzer-container.uploader {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .uploader-analyzer-container.analyzer {
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .uploader-container, .analyzer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #fff;
+  }
+  
+  .uploader-heading, .analyzer-container h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+  
+  .dropzone {
+    border: 2px dashed #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .cloud-upload {
+    font-size: 16px;
+  }
+  
+  .analyze-button, .share-button, .back-button {
+    background-color: #2ab660ee;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .analyze-button:hover, .share-button:hover, .back-button:hover {
+    background-color: #239c4c;
+  }
+  
+  .loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .loading-spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #2ab660ee;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .speedometer {
+    margin: 20px;
+  }
+  
+  .gauge-container {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .circular-chart {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 2.0;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 2.0;
+    stroke-linecap: round;
+  }
+  
+  .percentage {
+    font-size: 6px;
+    text-anchor: middle;
+  }
+  
+  .progress-bar {
+    background: #eee;
+    border-radius: 5px;
+    height: 10px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .progress {
+    background: #2ab660ee;
+    height: 90%;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  .details-container {
+    margin-top: 20px;
+  }
+  
+  .suggestions-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .suggestions {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  .tips-paragraph {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  .speedometers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 2px;
+    overflow-x: auto;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+   */
+   .uploader-analyzer-body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+     padding: 20px; 
+     margin-top: 50px;
+     padding-bottom: 80px;
+}
+
+.page-heading {
+    font-size: 35px;
+    text-align: center;
+    color:black;
+    margin-bottom: 20px;
+}
+
+.uploader-analyzer-container {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 20px;
+
+   
+}
+
+.uploader-analyzer-container.uploader {
+    width: 100%;
+    max-width: 600px;
+}
+
+.uploader-analyzer-container.analyzer {
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* 
+.uploader-container, .analyzer-container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #fff;
+} */
+
+ .analyzer-container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+.uploader-heading, .analyzer-container h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.dropzone {
+    border: 2.5px dashed #cdcbcb;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* .cloud-upload {
+    content:''
+    font-size: 16px;
+} */
+ 
+
+.analyze-button, .share-button, .back-button {
+    background-color: #2ab660ee;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.analyze-button:hover, .share-button:hover, .back-button:hover {
+    background-color: #239c4c;
+}
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.loading-spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #2ab660ee;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.speedometer {
+    margin: 20px;
+}
+
+.gauge-container {
+    width: 150px;
+    height: 150px;
+}
+
+.circular-chart {
+    width: 100%;
+    height: 100%;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 2.0;
+}
+
+.circle {
+    fill: none;
+    stroke: #2ab660ee;
+    stroke-width: 2.0;
+    stroke-linecap: round;
+}
+
+.percentage {
+    font-size: 6px;
+    text-anchor: middle;
+}
+
+.progress-bar {
+    background: #eee;
+    border-radius: 15px;
+   
+    width: 120%;
+    margin-top: 20px;
+    margin-left: 0px;
+    /* margin-right:100px; */
+}
+
+.progress {
+    background: #2ab660ee;
+    height: 90%;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.details-container {
+    margin-top: 20px;
+}
+
+.suggestions-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.suggestions {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.tips-paragraph {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.speedometers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 2px;
+    overflow-x: auto;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.pagee1{
+  color:#2ab660ee;
+}
+.uploader-container{
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  align-items: center;
+  /* margin-right:170px; */
+  /* margin-left: 90px; */
+  /* padding-left: 90px; */
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #f2f0f0;
+}
+.upco
+{
+  display: flex;
+  flex-direction:row;
+}
+.overall{
+  margin-left: 60px;
+}
